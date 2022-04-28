@@ -1,0 +1,87 @@
+.section-introducao{
+    background-image: url(../img/606023.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-introducao .botao-jogar{
+    width: 200px;
+    padding: 20px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-conteudo {
+    display: flex;
+    width: 600%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+
+
+div.container {
+    width: 100%;
+    background-color: #02c3d8a4;
+    box-shadow: 0 0 1em #f09819;
+    max-width: 600px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding: 30px 20px;
+    justify-content: center;
+    color:beige;
+}
+
+div.container h1 {
+    color: #010101 ;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Mali', cursive;
+}
+
+div.container p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Mali', cursive;
+}
+
+/* From uiverse.io by @Gumpack */
+.btn {
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+   }
+   
+   .btn {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+   }
+   
+   .btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .btn:active {
+    transform: scale(0.95);
+   }
