@@ -1,0 +1,111 @@
+
+.bg-fundo {
+  background-image: url(../img/rick-azul.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Mali', cursive;
+}
+
+.header-personagens{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-personagens div {
+    /* background-color: deeppink; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header-personagens div h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-personagens div p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.header-personagens .span-atencao {
+    font-weight: bold;
+    color:#FF512F;
+}
+
+.section-personagens {
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-personagens {
+    /* background-color: aquamarine; */
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.personagem {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    gap: 20px;
+}
+
+.personagem img {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.btn-personagem {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 14px -7px #f09819;
+}
+
+.borda-morty {
+  border: 8px solid #FF512F ;
+}
+
+.borda-rick {
+    border: 8px solid #1565DF;
+  
+}
+
+.borda-beth {
+    border: 8px solid #D3B87C;
+}
+
+.btn-morty{
+    background-color: #FF512F;
+}
+.btn-rick {
+    background-color: #1565DF;
+}
+
+.btn-beth {
+    background-color: #D3B87C;
+}
+
