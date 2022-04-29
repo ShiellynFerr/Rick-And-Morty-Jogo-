@@ -1,0 +1,102 @@
+
+/* Estilizando página da primeira fase Morty */
+
+.bg-fase1-morty {
+    background-image: url(../../../img/1075646.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.section-pergunta {
+ /* background-color: red; */
+ height: 95vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ align-items: center;
+ font-family: 'Mali', cursive;
+}
+
+.section-pergunta h2 {
+    background-color: #02c3d8a4;
+}
+.box-pergunta {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 400px;
+    height: 480px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #262C3A;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pergunta h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.box-pergunta p {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.alternativas {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul.alternativas li {
+    list-style: lower-alpha;
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+.btn-resposta {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 14px -7px #f09819;
+     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+}
+
+.btn-resposta:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-resposta:active {
+    transform: scale(0.95);
+}
+
+/* Estilizando página da segunda fase Morty */
+
+.bg-fase2-morty{
+    background-image: url(../../../img/saindo-do-portal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+/* Estilizando página da terceira fase Morty */
+
+.bg-fase3-morty {
+    background-image: url(../../../img/ali.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
