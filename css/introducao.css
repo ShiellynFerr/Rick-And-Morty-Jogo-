@@ -24,7 +24,6 @@
     width: 600%;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 
@@ -72,6 +71,7 @@ div.container p {
     display: block;
     border: 0px;
     font-weight: 700;
+    cursor: pointer;
     box-shadow: 0px 0px 14px -7px #f09819;
    }
    
