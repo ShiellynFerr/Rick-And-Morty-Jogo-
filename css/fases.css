@@ -109,3 +109,20 @@ ul.alternativas li {
     background-position: center;
     background-size: cover;  
 }
+
+/* Estilizando página da segunda fase Rick */
+
+.bg-fase2-rick{
+    background-image: url(../img/atirando2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+.bg-fase3-rick{
+    background-image: url(../img/paisagem.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
