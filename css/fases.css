@@ -71,7 +71,7 @@ ul.alternativas li {
     font-weight: 700;
     cursor: pointer;
     box-shadow: 0px 0px 14px -7px #f09819;
-     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
 }
 
 .btn-resposta:hover {
@@ -98,5 +98,14 @@ ul.alternativas li {
 .bg-fase3-morty {
     background-image: url(../../../img/ali.jpg);
     background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+/* Estilizando página da primeira fase Rick */
+
+.bg-fase1-rick{
+    background-image: url(../img/fundo-r-e-m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;  
 }
