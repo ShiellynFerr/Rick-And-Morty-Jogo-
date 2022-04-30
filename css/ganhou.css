@@ -1,0 +1,61 @@
+.bg-ganhou{
+    background-color: #262C3A;
+    font-family: 'Mali', cursive;
+    overflow-y: hidden;
+}
+
+.section-ganhou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-gif-ganhou{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box-gif-ganhou figure img {
+    width: 600px;
+    border: 8px solid #FF512F;
+    border-radius: 4px;
+}
+.texto-ganhou {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.texto-ganhou h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #FF512F;
+}
+
+.texto-ganhou p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-ganhou{
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #FF512F;
+    margin-top: 10px;
+}

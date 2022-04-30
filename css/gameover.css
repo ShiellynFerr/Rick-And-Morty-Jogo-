@@ -1,0 +1,90 @@
+.bg-game-over{
+    background-image: url(../../../img/gif/portal-rick-and-morty.gif);
+    background-position: center;
+    font-family: 'Mali', cursive;
+}
+
+.perdeu{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.perdeu-texto{
+    width: 800px;
+    height: 400px;
+    background-color: #02c3d8;
+    box-shadow: 0 0 1em #f09819;
+    display: flex;
+    justify-content: space-around;
+}
+
+.perdeu-texto .gif img {
+    width: 280px;
+    height: 400px;
+}
+
+.box-game-over{
+    height: 40vh;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.box-game-over h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-game-over p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box-game-over .btn-game-over {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin: 10px;
+    padding: 20px 20px;
+    width: 200px;
+    margin:auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 40px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+}
+
+.box-game-over .btn-game-over:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Estilizando perdeu Rick */
+.bg-game-over-rick{
+    background-image: url(../../../img/ricazul-bb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mali', cursive;
+    overflow-y: hidden;
+}
+.perdeu-texto .gif-rick img {
+    
+    width: 400px;
+    height: 400px;
+}
