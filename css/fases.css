@@ -126,3 +126,26 @@ ul.alternativas li {
     background-position: center;
     background-size: cover;  
 }
+
+/* Estilizando página da primeira fase Beth */
+
+.bg-fase1-beth{
+    background-image: url(../img/family-morty.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+/* Estilizando página da segunda fase Beth */
+
+.bg-fase2-beth {
+    background-image: url(../img/gif/alienigenas.gif);
+    background-position: center;
+}
+
+/* Estilizando página da segunda fase Beth */
+
+.bg-fase3-beth{
+    background-image: url(../img/portal-1.jpg);
+    background-position: center;
+}
