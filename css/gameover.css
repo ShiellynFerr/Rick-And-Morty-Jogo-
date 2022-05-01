@@ -83,8 +83,19 @@
     font-family: 'Mali', cursive;
     overflow-y: hidden;
 }
-.perdeu-texto .gif-rick img {
+.perdeu-texto .gif-medio img {
     
     width: 400px;
     height: 400px;
+}
+
+
+/* Estilizando perdeu Beth */
+.bg-game-over-beth{
+    background-color: #191919;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mali', cursive;
+    overflow-y: hidden;
 }
