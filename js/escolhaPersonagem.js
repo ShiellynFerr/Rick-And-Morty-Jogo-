@@ -1,15 +1,15 @@
 function morty() {
       
-    location.href = '../personagens/morty/index.html';
+    location.href = '../personagens/morty/mortyFase1.html';
 }
 
 function rick() {
       
-    location.href = '../personagens/rick/index.html';
+    location.href = '../personagens/rick/rickFase1.html';
 }
 
 
 function beth() {
       
-    location.href = '../personagens/beth/index.html';
+    location.href = '../personagens/beth/bethFase1.html';
 }
