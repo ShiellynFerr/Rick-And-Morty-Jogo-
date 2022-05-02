@@ -6,8 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;     
 }
+
+ /* Estilizando box de alternativas */
+
 .section-pergunta {
- /* background-color: red; */
  height: 95vh;
  display: flex;
  flex-direction: column;
