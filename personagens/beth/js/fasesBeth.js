@@ -1,5 +1,5 @@
 
-function fase1e2Beth() {
+function fase1Beth() {
 
     let escolha1;
 
