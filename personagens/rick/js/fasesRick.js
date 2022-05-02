@@ -57,7 +57,6 @@ function fase3Rick() {
   
       if(escolha1 === 'a') {
           location.href = '../rick/rickGanhou.html';
-          alert('Muito bem, você avançou para a próxima fase!');
       } else if (escolha1 === 'a') {
           location.href = '../rick/rickGameOver.html';
       } else if (escolha1 === 'c') {
