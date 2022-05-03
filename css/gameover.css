@@ -2,6 +2,7 @@
     background-image: url(../img/gif/portal-rick-and-morty.gif);
     background-position: center;
     font-family: 'Mali', cursive;
+    overflow-y: hidden;
 }
 
 .perdeu{
