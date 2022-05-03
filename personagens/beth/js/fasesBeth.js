@@ -2,6 +2,7 @@
 function fase1Beth() {
 
     let escolha1;
+    //undefined
 
     while(escolha1 !== 'a' && escolha1 !== 'b' && escolha1 !== 'c') {
   
@@ -14,7 +15,8 @@ function fase1Beth() {
         location.href = '../beth/bethGameOver.html';
       } else if (escolha1 === 'b') {
         location.href = '../beth/bethGameOver.html';
-      }else {
+      }
+      else {
           alert('Escolha Inválida, escolha entre a b ou c');
       }
   
