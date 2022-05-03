@@ -2,7 +2,7 @@
 /* Estilizando página da primeira fase Morty */
 
 .bg-fase1-morty {
-    background-image: url(../../../img/1075646.jpg);
+    background-image: url('../img/1075646.jpg');
     background-repeat: no-repeat;
     background-size: cover;     
 }
@@ -89,7 +89,7 @@ ul.alternativas li {
 /* Estilizando página da segunda fase Morty */
 
 .bg-fase2-morty{
-    background-image: url(../../../img/saindo-do-portal.jpg);
+    background-image: url(../img/saindo-do-portal.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
@@ -98,7 +98,7 @@ ul.alternativas li {
 /* Estilizando página da terceira fase Morty */
 
 .bg-fase3-morty {
-    background-image: url(../../../img/ali.jpg);
+    background-image: url(../img/ali.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
 }

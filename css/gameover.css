@@ -76,7 +76,7 @@
 
 /* Estilizando perdeu Rick */
 .bg-game-over-rick{
-    background-image: url(../../../img/ricazul-bb.png);
+    background-image: url('../img/ricazul-bb.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
