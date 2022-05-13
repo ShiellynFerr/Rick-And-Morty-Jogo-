@@ -4,7 +4,7 @@
 </h1>
 <hr>
 
-<h1> Tecnologias Utilizadas</h1>
+
 <table>
   <thead>
     <tr>
@@ -71,5 +71,7 @@
 <img src="img/fase-bety.png">
 
 <hr>
+
+<h1> Tecnologias Utilizadas</h1>
 
 
